@@ -33,7 +33,10 @@ p:last-child {
 h1,
 h2,
 h3 {
-  font-family: Georgia, Times, "Times New Roman", serif;
+  /*font-family: Georgia, Times, "Times New Roman", serif;*/
+  font-family: "Mistral";
+  /* added font-size 20180210 */
+  font-size: 100px;
   font-weight: 700;
   color: #4aaaa5;
 }
@@ -67,14 +70,17 @@ h3 {
   float: left;
   width: 250px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
+  /*font-family: Georgia, Times, "Times New Roman", serif;*/
+  font-family: "Mistral";
+  font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
+  /*color: #fff;*/
+  color: red;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  /*background: #4aaaa5;*/
+  background-color: #fff;
 }
 
 nav {
